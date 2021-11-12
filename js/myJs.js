@@ -14,9 +14,9 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hôm nay là ngày 19/10/2021 nè!',
-        text: 'Chúc mừng sinh nhật Lê Khánh Ngọc ngáo nha',
-        imageUrl: 'img/hii.png',
+        title: 'Chồn được đẻ dô 17/11/2005 nè!',
+        text: 'Chúc mừng sinh nhật bé Chồn Lùi ngáo nha',
+        imageUrl: 'img/2.jpg',
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("img/iput-bg.jpg")',
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Mấy mươi mùa bánh chưng đi qua, để quên bao vết hằn trên gương mặt người bạn già của tui. Mới 16 mùa xuân xanh mà cứ ngỡ đã ngoài 61 rồi cơ đấy, haha . Đùa vậy thui chứ bạn tui là hót gơ đó hehe. Qua tủi mới chúc bạn Nọc học siu siu giỏi, khỏe siu siu khỏe để không bị dương tính covid nè, zui zẻ cười tươi chứ đừng khóc nhè nhìn mắc cười lắm , xinh thì z được rồi chứ xinh nữa thứ nào chịu nổi . Mọi điều như ý ha và nhớ học siu giỏi để chỉ bài t nữa đó nhaa." ;
+    var text = " Tui là bé Chồn Lùi xấu xí không đáng iu đây, sắp sinh nhật tui nên tui ước, tui sẽ có nhiều sức khỏe, học giỏi và xinh gái hơn, ngày càng bớt láo lếu lại, có thêm thiệc là nhìu tiền để bao mọi người đi ăn hoài hoài lun ehehe " ;
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,11 +96,11 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Chúc mừng sinh nhật !!!',
+        title: 'Chúc mừng sinh nhật bé !!!',
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Hãy nói gì đó đi ...'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Hãy sủa gì đó đi ...'>",
         background: '#fff url("img/hpbd.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -109,23 +109,23 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Không thèm ",
+        cancelButtonText: "Đếch thèm ",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Cảm ơn nheee'
+        confirmButtonText: 'Bé Chồn cảm ơn nheee'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Bấm dô đây đi',
-                background: '#fff url("img/ilu.jpg")',
-                title: 'Chúc mừng sinh nhật again nhaaa ^^',
-                text: "Bây giờ tới món quà típ theo nè",
+                background: '#fff url("img/hpbd.jpg")',
+                title: 'Chúc mừng bé Chồn Lùi được đẻ nhaaa ^^',
+                text: "Bây giờ tới món quà típ theo nè bé",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://nhanguiyeuthuong.xyz/love/MptOVeomVf.html';
+                    window.location = 'http://preview.pagedemo.me/618db60717a9a10012b05520';
                   }
             })
         }
